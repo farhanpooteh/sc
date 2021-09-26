@@ -1,30 +1,30 @@
 #!/bin/bash
 
 #install ssh ovpn
-wget https://raw.githubusercontent.com/farhanpooteh/ip/main/ssh-vpn.sh && chmod +x ssh-vpn.sh && screen -S ssh-vpn ./ssh-vpn.sh
+wget https://raw.githubusercontent.com/farhanpooteh/sc/main/ssh-vpn.sh && chmod +x ssh-vpn.sh && screen -S ssh-vpn ./ssh-vpn.sh
 
 #install sstp
-wget https://raw.githubusercontent.com/farhanpooteh/ip/main/sstp.sh && chmod +x sstp.sh && screen -S sstp ./sstp.sh
+wget https://raw.githubusercontent.com/farhanpooteh/sc/main/sstp.sh && chmod +x sstp.sh && screen -S sstp ./sstp.sh
 
 #install ssr
-wget https://raw.githubusercontent.com/farhanpooteh/ip/main/ssr.sh && chmod +x ssr.sh && screen -S ssr ./ssr.sh
-wget https://raw.githubusercontent.com/farhanpooteh/ip/main/sodosok.sh && chmod +x sodosok.sh && screen -S ss ./sodosok.sh
+wget https://raw.githubusercontent.com/farhanpooteh/sc/main/ssr.sh && chmod +x ssr.sh && screen -S ssr ./ssr.sh
+wget https://raw.githubusercontent.com/farhanpooteh/sc/main/sodosok.sh && chmod +x sodosok.sh && screen -S ss ./sodosok.sh
 
 #installwg
-wget https://raw.githubusercontent.com/farhanpooteh/ip/main/wg.sh && chmod +x wg.sh && screen -S wg ./wg.sh
+wget https://raw.githubusercontent.com/farhanpooteh/sc/main/wg.sh && chmod +x wg.sh && screen -S wg ./wg.sh
 
 #install v2ray
-wget https://raw.githubusercontent.com/farhanpooteh/ip/main/ins-vt.sh && chmod +x ins-vt.sh && screen -S v2ray ./ins-vt.sh
+wget https://raw.githubusercontent.com/farhanpooteh/sc/main/ins-vt.sh && chmod +x ins-vt.sh && screen -S v2ray ./ins-vt.sh
 
 #install L2TP
-wget https://raw.githubusercontent.com/farhanpooteh/ip/main/ipsec.sh && chmod +x ipsec.sh && screen -S ipsec ./ipsec.sh
-wget https://raw.githubusercontent.com/farhanpooteh/ip/main/set-br.sh && chmod +x set-br.sh && ./set-br.sh
+wget https://raw.githubusercontent.com/farhanpooteh/sc/main/ipsec.sh && chmod +x ipsec.sh && screen -S ipsec ./ipsec.sh
+wget https://raw.githubusercontent.com/farhanpooteh/sc/main/set-br.sh && chmod +x set-br.sh && ./set-br.sh
 
 #install ohp
-wget https://raw.githubusercontent.com/farhanpooteh/ip/main/ohp.sh && chmod +x ohp.sh && ./ohp.sh
+wget https://raw.githubusercontent.com/farhanpooteh/sc/main/ohp.sh && chmod +x ohp.sh && ./ohp.sh
 
 #install websocket
-wget https://raw.githubusercontent.com/farhanpooteh/ip/main/websocket.sh  && chmod +x websocket.sh && ./websocket.sh
+wget https://raw.githubusercontent.com/farhanpooteh/sc/main/websocket.sh  && chmod +x websocket.sh && ./websocket.sh
 
 rm -f /root/jawab
 rm -f /root/ssh-vpn.sh
